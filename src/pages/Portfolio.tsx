@@ -1,7 +1,5 @@
-import React from 'react'
-import Sidebar from '../components/Sidebar'
-
-function Portfolio() {
+import Sidebar from "../components/Sidebar"
+const Portfolio: React.FC = () => {
   return (
     <div className="portfolio">
       <Sidebar />
