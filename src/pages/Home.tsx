@@ -1,11 +1,9 @@
 import Sidebar from "../components/Sidebar"
 const Home: React.FC = () => {
   return (
-    <div className="home">
+    <div className="flex">
       <Sidebar />
-      <button className="bg-red-500 text-white font-bold py-2 px-4 ">
-        Hello Tailwind
-      </button>
+      <p>helloworld</p>
     </div>
   )
 }

@@ -1,8 +1,8 @@
 import SidebarIcon from './SidebarIcon'
 import SidebarList from './SidebarList'
-function Sidebar() {
+const Sidebar = () => {
   return (
-    <div className="Sidebar">
+    <div className="h-screen w-60 bg-blue-900">
         <SidebarIcon />
         <SidebarList />
     </div>
