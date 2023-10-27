@@ -1,6 +1,7 @@
 import "./App.css";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import { Home, Email, Portfolio, NotFound } from "./pages/index";
+import Sidebar from "./components/Sidebar";
 
 const App: React.FC = () => {
   return (
