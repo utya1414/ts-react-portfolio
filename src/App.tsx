@@ -1,10 +1,18 @@
 import "./App.css";
-import Sidebar from "./components/Sidebar";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+import { Home, Email, Portfolio, NotFound } from "./pages/index";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      <Sidebar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/email" element={<Email />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }   
