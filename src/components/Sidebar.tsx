@@ -2,7 +2,7 @@ import SidebarIcon from './SidebarIcon'
 import SidebarList from './SidebarList'
 const Sidebar = () => {
   return (
-    <div className="h-screen w-60 bg-blue-900">
+    <div className="h-screen bg-blue-900">
         <SidebarIcon />
         <SidebarList />
     </div>
