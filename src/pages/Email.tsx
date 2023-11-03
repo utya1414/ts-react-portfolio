@@ -1,9 +1,10 @@
+import EmailContent from "../components/EmailContent"
 import Sidebar from "../components/Sidebar"
 const Email: React.FC = () => {
   return (
-    <div className="email">
+    <div className="flex">
       <Sidebar />
-      Email
+      <EmailContent />
     </div>
   )
 }
