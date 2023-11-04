@@ -1,4 +1,4 @@
-import Icon from "../images/icon.png";
+import Icon from "../../images/icon.png";
 
 const SidebarIcon = () => {
   return (
